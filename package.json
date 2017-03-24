@@ -33,9 +33,5 @@
     "firebase": "^3.7.3",
     "gravatar": "^1.6.0",
     "request": "^2.81.0"
-  },
-  "files": [
-    "index",
-    "lib"
-  ]
+  }
 }

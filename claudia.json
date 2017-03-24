@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "lambda-comunidad-executor",
+    "name": "lambda-comunidad",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "ey165jb4b1"
+  }
+}
