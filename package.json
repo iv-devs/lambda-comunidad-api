@@ -1,0 +1,41 @@
+{
+  "name": "lambda-comunidad",
+  "version": "1.0.0",
+  "description": "express api ivdevs.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib --copy-files"
+  },
+  "keywords": [
+    "ivdevs",
+    "programadores",
+    "iv-region",
+    "api"
+  ],
+  "author": "César Encina",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2016-node4": "^6.0.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "aws-serverless-express": "^2.2.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "firebase": "^3.7.3",
+    "gravatar": "^1.6.0",
+    "request": "^2.81.0"
+  },
+  "files": [
+    "index",
+    "lib"
+  ]
+}
