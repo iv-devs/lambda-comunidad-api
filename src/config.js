@@ -1,10 +1,5 @@
-export const configFirebase = {
-  serviceAccount: {
-    projectId: process.env.PROJECT_ID || 'projectId',
-    clientEmail: process.env.CLIENT_EMAIL || 'foo@projectId.iam.gserviceaccount.com',
-    privateKey: process.env.PRIVATE_KEY || '-----BEGIN PRIVATE KEY-----\nkey\n-----END PRIVATE KEY-----\n'
-  },
-  databaseURL: process.env.DATABASE_URL || 'https://databaseName.firebaseio.com'
+export const configMongo = {
+  databaseURL: process.env.DATABASE_URL || 'mongodb://<dbuser>:<dbpass>@ds141410.mlab.com:41410/comunidad'
 };
 
-export default { configFirebase };
+export default { configMongo };

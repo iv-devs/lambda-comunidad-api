@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib --copy-files"
+    "build": "babel src -d lib --copy-files",
+    "start": "npm run build && node index.js"
   },
   "keywords": [
     "ivdevs",
@@ -30,8 +31,8 @@
     "aws-serverless-express": "^2.2.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "firebase": "^3.7.3",
     "gravatar": "^1.6.0",
+    "mongoose": "^4.9.1",
     "request": "^2.81.0"
   }
 }
