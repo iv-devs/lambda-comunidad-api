@@ -30,6 +30,7 @@
   "dependencies": {
     "aws-serverless-express": "^2.2.0",
     "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
     "express": "^4.15.2",
     "gravatar": "^1.6.0",
     "mongoose": "^4.9.1",

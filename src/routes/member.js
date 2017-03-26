@@ -25,6 +25,7 @@ router.post('/', (req, res) => {
     params.avatarUrl = avatarUrl;
     console.log(params);
 
+    params.isStaff = false;
     // save member
     const newMember = new Member(params);
     newMember.save()
