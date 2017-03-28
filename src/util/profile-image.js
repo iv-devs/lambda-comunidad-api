@@ -20,12 +20,15 @@ const getProfileImage = (email, githubUser) => new Promise((resolve, reject) => 
       }
 
       avatarUrl = JSON.parse(body).avatar_url;
-    });
-  }
-  if (avatarUrl === '') {
-    avatarUrl = gravatar.url(email);
-  }
+      if (avatarUrl === '') {
+        avatarUrl = gravatar.url(email);
+      }
 
-  resolve(avatarUrl);
+      resolve(avatarUrl);
+    });
+  } else {
+    avatarUrl = gravatar.url(email);
+    resolve(avatarUrl);
+  }
 });
 export default getProfileImage;
